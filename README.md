@@ -78,3 +78,6 @@ The last four parameters are, respectively:
 ![ANOVAF](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap2.PNG)
 ![KMEANS](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap3.PNG)
 ![SOM](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap4.PNG)
+
+## TODO:
+Fix local data pre-processing in main.cpp.
