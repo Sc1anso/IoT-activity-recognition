@@ -38,6 +38,7 @@ A version for the UCI dataset also exists for this directory;
     - 'avg', 'min' or 'avgmin' respectively, for ANOVA analysis, to do only the analysis by choosing the mean of the variances per class, only by choosing the minimum of the variances per class, or both analyses;
     - "our" or "uci" to be entered now if the first parameter is "u";
     - "y" or "n" respectively to tell the program whether or not it should save, during execution, all plots and useful data structures to be exported;
+- server.py: code to run in a python server to pre-process the data acquired with the M5Stack device for SOM testing;
 - main.cpp: M5Stack code.
  
  NOTE: All directories that are not in the repository will be generated at runtime.
