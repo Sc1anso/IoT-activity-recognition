@@ -63,3 +63,10 @@ The last four parameters are, respectively:
 - max dimension of the Self-Organizing Map;
 - SOM size increase with each test;
 - training iterations.
+
+
+## Results:
+![Supervised](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap1.PNG)
+![ANOVAF](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap2.PNG)
+![KMEANS](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap3.PNG)
+![SOM](https://github.com/Sc1anso/IoT-activity-recognition/blob/main/imgs/diap4.PNG)
