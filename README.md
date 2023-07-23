@@ -32,3 +32,30 @@ A version for the UCI dataset also exists for this directory;
     - 'avg', 'min' or 'avgmin' respectively, for ANOVA analysis, to do only the analysis by choosing the mean of the variances per class, only by choosing the minimum of the variances per class, or both analyses;
     - "our" or "uci" to be entered now if the first parameter is "u";
     - "y" or "n" respectively to tell the program whether or not it should save, during execution, all plots and useful data structures to be exported.
+
+ ## Dependencies:
+You can install the necessary dependencies from the files in the 'main_req' and 'server_req' directories.
+
+## Execution instructions
+
+To run supervised tests:
+
+```bash
+  python main.py s no-bal our y
+```
+To run unsupervised tests:
+
+```bash
+  python main.py u bal som avgmin uci y
+```
+To run SOM with custom parameters:
+
+```bash
+  python main.py u bal som avgmin uci y 10 50 5 5
+```
+
+The last four parameters are, respectively:
+- min dimension of Self-Organizing Map;
+- max dimension of Self-Organizing Map;
+- SOM size increase with each test;
+- training iterations.
