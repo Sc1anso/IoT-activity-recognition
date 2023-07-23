@@ -34,7 +34,9 @@ A version for the UCI dataset also exists for this directory;
     - "y" or "n" respectively to tell the program whether or not it should save, during execution, all plots and useful data structures to be exported.
 
  ## Dependencies:
-You can install the necessary dependencies from the files in the 'main_req' and 'server_req' directories.
+Run:
+- install_requirements.bat for Windows;
+- install_requirements.sh for Linux;
 
 ## Execution instructions
 
