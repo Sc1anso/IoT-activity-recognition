@@ -29,7 +29,7 @@ Once the performance was compared, an attempt was made to implement the best uns
 - som models: directory containing saved models already trained for unsupervised techniques.
 A version for the UCI dataset also exists for this directory;
 - weights: directory containing saved weights from supervised techniques;
-- analyse data.py: Python script that takes care of reading the data acquired from the micro-controller and proceeds to create the dataset;
+- analyze_data.py: Python script that takes care of reading the data acquired from the micro-controller and proceeds to create the dataset;
 - main.py Python script that consists of the core of the experiment. At contained within it is the code relating to the training and testing of all models and the code concerning the export of the files needed for execution on the edge device. It accepts the following input parameters (in order):   
     - "s" or "u" respectively to perform supervised or unsupervised.
     - "bal" or "no-bal" respectively to perform the study on data balanced or unbalanced data;
@@ -37,7 +37,8 @@ A version for the UCI dataset also exists for this directory;
     - "kmeans" or "som" respectively to perform the unsupervised analysis with K-Means or SOM;
     - 'avg', 'min' or 'avgmin' respectively, for ANOVA analysis, to do only the analysis by choosing the mean of the variances per class, only by choosing the minimum of the variances per class, or both analyses;
     - "our" or "uci" to be entered now if the first parameter is "u";
-    - "y" or "n" respectively to tell the program whether or not it should save, during execution, all plots and useful data structures to be exported.
+    - "y" or "n" respectively to tell the program whether or not it should save, during execution, all plots and useful data structures to be exported;
+- main.cpp: M5Stack code.
  
  NOTE: All directories that are not in the repository will be generated at runtime.
 
