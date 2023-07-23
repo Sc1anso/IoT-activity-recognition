@@ -32,6 +32,8 @@ A version for the UCI dataset also exists for this directory;
     - 'avg', 'min' or 'avgmin' respectively, for ANOVA analysis, to do only the analysis by choosing the mean of the variances per class, only by choosing the minimum of the variances per class, or both analyses;
     - "our" or "uci" to be entered now if the first parameter is "u";
     - "y" or "n" respectively to tell the program whether or not it should save, during execution, all plots and useful data structures to be exported.
+ 
+ NOTE: All directories that are not in the repository will be generated at runtime.
 
  ## Dependencies:
 Run:
@@ -57,7 +59,7 @@ To run SOM with custom parameters:
 ```
 
 The last four parameters are, respectively:
-- min dimension of Self-Organizing Map;
-- max dimension of Self-Organizing Map;
+- min dimension of the Self-Organizing Map;
+- max dimension of the Self-Organizing Map;
 - SOM size increase with each test;
 - training iterations.
