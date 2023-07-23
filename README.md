@@ -1,6 +1,5 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/Sc1anso/IoT-activity-recognition)
 ![GitHub](https://img.shields.io/github/license/Sc1anso/IoT-activity-recognition)
-![GitHub all releases](https://img.shields.io/github/downloads/Sc1anso/IoT-activity-recognition/total)
 
 
 
@@ -19,7 +18,7 @@ Once the performance was compared, an attempt was made to implement the best uns
 
 ## Structure:
 - UCI-HAR Dataset: directory containing the UCI dataset;
-- Thesis Dataset: directory containing the dataset built using the M5Stack Gray device;
+- Dataset tesi: directory containing the dataset built using the M5Stack Gray device (zipped using WINRAR);
 - plots: directory containing all the plots generated during the execution of the experiment on the dataset we have constructed;
 - UCI plots: directory containing all the graphs generated during the e execution of the experiment on the UCI dataset;
 - np arr: directory containing some saved data structures in .npy format useful for exporting models. In addition to .npy it is possible to find, in particular for the self-organising map, two .txt files that are those that will be actually exported on the microcontroller and they are:
